@@ -1,0 +1,5 @@
+#baseURL = 'http://example.org/'
+baseURL = 'https://blog.tuhinmajumder.com/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'ananke'
