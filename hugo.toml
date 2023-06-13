@@ -18,6 +18,7 @@ features = ["posts", "shortcodes", "related content", "comments"]
 #  weight = 80
 
 resourceDir = "../resources"
+canonifyURLs = true
 
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
