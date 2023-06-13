@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Create Website"
+title: "DIY-Website"
 date: 2023-06-12T22:24:47+05:30
 #menu:
 #  main:
@@ -19,3 +19,4 @@ Static websites have gained popularity due to their simplicity, faster loading t
 Throughout this blog post, we'll cover the essentials of static websites, including the basics of HTML markup, CSS styling, and the process of hosting. By the end, you'll have a solid understanding of how to create your own static website page and make it accessible to the world.
 
 So, let's dive in and embark on this exciting journey of building and hosting static web pages!
+

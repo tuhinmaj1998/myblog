@@ -1,12 +1,18 @@
 ---
 title: "About"
-description: "A few years ago, while visiting or, rather, rummaging about Notre-Dame, the author of this book found, in an obscure nook of one of the towers, the following word, engraved by hand upon the wall: —ANANKE."
-featured_image: '/images/code2.jpg'
+description: "Welcome to my Blog."
+featured_image: false
+#featured_image: '/images/tuhin_profile1.jpg'
 #menu:
 #  main:
 #    weight: 1
 ---
 
-[//]: # ({{< figure src="/images/code1.jpg" title="" >}})
 
-_The Hunchback of Notre-Dame_ (French: _Notre-Dame de Paris_) is a French Romantic/Gothic novel by Victor Hugo, published in 1831. The original French title refers to Notre Dame Cathedral, on which the story is centered. English translator Frederic Shoberl named the novel The Hunchback of Notre Dame in 1833 because at the time, Gothic novels were more popular than Romance novels in England. The story is set in Paris, France in the Late Middle Ages, during the reign of Louis XI.
+{{< figure src="/images/tuhin_profile1.jpg" title="" height="100vf">}}
+Hello, readers! My name is Tuhin, 
+and I'm thrilled to welcome you to my blog. 
+As a data engineer and avid technology enthusiast, 
+I am passionate about leveraging the power of data to drive insights and innovation. 
+In this "About Me" section, I'd like to share a bit about my background and 
+my journey in the world of technology.
