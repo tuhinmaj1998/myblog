@@ -1,5 +1,12 @@
 ---
 title: "Articles"
-date: 2017-03-02T12:00:00-05:00 
+date: 2023-06-13T12:00:00-05:00
+type: page
+omit_header_text: true
 ---
-Articles are paginated with only three posts here for example. You can set the number of entries to show on this page with the "pagination" setting in the config file.
+[//]: # (Welcome to the Article Section. You will find all the articles here.)
+{{< figure src="/images/misc/cooking_1.png" title="" padding-top="20px;" height="300px;" >}}
+
+The Chef is Cooking. You'll be served as soon as the food is ready .
+---
+[Go Back 😋](javascript:history.back())
