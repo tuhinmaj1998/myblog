@@ -4,12 +4,12 @@ date: 2023-06-12T22:24:47+05:30
 #menu:
 #  main:
 #    weight: 20
-tags: ['Create Website']
+tags: ['DIY-Website']
 featured_image: false
 show_reading_time: true
 
 ---
-
+----
 ### Understanding Static Website
 
 Understanding static websites is essential before delving into creating and hosting them. Here's a brief explanation:
@@ -25,3 +25,10 @@ JavaScript can also be incorporated into static websites to add interactivity an
 Static websites are typically lightweight, load quickly, and are easy to host and maintain. They are well-suited for content that doesn't require frequent updates or complex functionality. Common use cases include personal blogs, portfolios, landing pages, documentation sites, and small business websites.
 
 By understanding the nature of static websites and their underlying technologies, you'll have a solid foundation for creating and hosting your own static web pages.
+
+
+___
+
+Previous Section: [Setting Up Environment](/post/diy-website/setting_up_env/)
+
+Previous Section: Cooking🧑‍🍳

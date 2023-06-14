@@ -4,8 +4,8 @@ languageCode = 'en-us'
 title = 'Blog Post by Tuhin'
 theme = 'ananke'
 
-tags = ["Create Website", "Install Software","Github"]
-features = ["posts", "shortcodes", "related content", "comments"]
+tags = ["Create Website", "Install Software","Github", "DIY Website"]
+features = ["website","posts", "shortcodes", "related content", "comments"]
 
 #[related]
 #  includeNewer = true
@@ -20,9 +20,17 @@ features = ["posts", "shortcodes", "related content", "comments"]
 resourceDir = "../resources"
 canonifyURLs = true
 
+#[markup]
+#  defaultMarkdownHandler = 'blackFriday'
+#  [markup.blackFriday]
+#    hrefTargetBlank = true
+
+
+
+
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
-Paginate = 10 # this is set low for demonstrating with dummy content. Set to a higher number
+Paginate = 6 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = ""
 enableRobotsTXT = true
 
@@ -46,43 +54,46 @@ enableRobotsTXT = true
   # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
   background_color_class = "bg-blue"
   recent_posts_number = 3
+  body_classes = "avenir bg-washed-yellow"
 
-[[params.ananke_socials]]
-name = "twitter"
-url = "https://twitter.com/GoHugoIO"
+#[[params.ananke_socials]]
+#name = "twitter"
+#url = "https://twitter.com/"
 
 [[params.ananke_socials]]
 name = "facebook"
-url = "https://www.facebook.com"
+url = "https://www.facebook.com/tuhinmaj"
 
 [[params.ananke_socials]]
 name = "github"
-url = "https://github.com"
+url = "https://github.com/tuhinmaj1998"
 
 [[params.ananke_socials]]
 name = "linkedin"
-url = "https://linkedin.com"
+url = "https://www.linkedin.com/in/tuhin-majumder-764636125/"
 
-[[menu.main]]
-    name = "About"
-    pre = "<i class='fa fa-heart'></i>"
-    weight = 1
-    identifier = "about"
-    url = "/about/"
 #[[menu.main]]
-#    name = "Topic"
+#    name = "About"
+#    pre = "<i class='fa fa-heart'></i>"
+#    weight = 1
+#    identifier = "about"
+#    url = "/about/"
+#[[menu.main]]
+#    name = "Post"
 #    pre = "<i class='fa fa-road'></i>"
 #    weight = 2
-#    url = "/post/topic/topic/"
+#    url = "/post/"
+
+#[[menu.main]]
+#    name = "DIY-Website"
+##    pre = "<i class='fa fa-road'></i>"
+#    weight = 101
+#    url = "/post/create-website/"
+#
+
 
 [[menu.main]]
-    name = "DIY-Website"
-    pre = "<i class='fa fa-road'></i>"
-    weight = -1
-    url = "/post/create-website/intro/"
-
-[[menu.main]]
-    name = "Tags"
-    identifier = "tags"
-    weight = 3
-    url = "/tags/"
+    name = "Home"
+    identifier = "Home"
+    weight = 1
+    url = "/"
