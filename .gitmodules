@@ -1,5 +1,5 @@
 [submodule "themes/ananke"]
 	path = themes/ananke
-	url = https://github.com/theNewDynamic/gohugo-theme-ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
 [submodule "bar1"]
 	branch = master
