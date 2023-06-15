@@ -49,5 +49,11 @@
       {{ block "main" . }}{{ end }}
     </main>
     {{ block "footer" . }}{{ partialCached "site-footer.html" . }}{{ end }}
+        {{ block "js-copy-code" . }}{{ end }}
+
   </body>
+
+
+ {{ block "css-copy-code" . }} {{ end }}
+
 </html>

@@ -1,13 +1,15 @@
 ---
-title: "Setting Up Github"
+title: "Link Project with Github"
 date: 2023-06-12T22:24:47+05:30
 tags: ['Github', 'Miscellaneous', 'Setting Up Environment']
 featured_image: false
 show_reading_time: true
+summary: "Let's learn how to link project with GitHub. Click to learn more."
+
 ---
 There are two ways to set up GitHub with your project.
 
-## In Github:
+## In GitHub:
 
 #### Run the following command to initialize a Git repository
 ```csharp

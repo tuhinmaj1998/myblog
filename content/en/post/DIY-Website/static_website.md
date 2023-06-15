@@ -7,6 +7,7 @@ date: 2023-06-12T22:24:47+05:30
 tags: ['DIY-Website']
 featured_image: false
 show_reading_time: true
+summary: "Let's know what is static websites. Click to learn more."
 
 ---
 ----

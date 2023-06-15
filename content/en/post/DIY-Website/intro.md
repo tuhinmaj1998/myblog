@@ -9,6 +9,7 @@ tags: ['DIY-Website']
 featured_image: false
 show_reading_time: ['website']
 features: 2
+summary: "Welcome to the journey of building and hosting static web pages! Click to Explore."
 ---
 ----
 

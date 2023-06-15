@@ -66,3 +66,15 @@
 
   </article>
 {{ end }}
+
+{{ define "js-copy-code" }}
+    {{ if (findRE "<pre" .Content 1) }}
+        <script src="/js/copy-code-button.js"></script>
+    {{ end  }}
+{{ end  }}
+
+{{ define "css-copy-code" }}
+    {{ if (findRE "<pre" .Content 1) }}
+        <LINK href="/css/css-copy-code.css" rel="stylesheet" type="text/css">
+    {{ end  }}
+{{ end  }}

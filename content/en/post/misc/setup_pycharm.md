@@ -4,6 +4,8 @@ date: 2023-06-12T22:24:47+05:30
 tags: ['Install Software', 'Miscellaneous', 'Setting Up Environment']
 featured_image: false
 show_reading_time: true
+summary: "PyCharm is a multitasker IDE. Let's know how to set up Mr. Py Charming."
+
 ---
 #### 1. Install PyCharm Community Edition:
 
