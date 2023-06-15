@@ -11,6 +11,14 @@ recent_posts_number: 6
 keywords:
 - hugo
 - seo
+- blog
+- website
+- technical
+- writing
+- knowledge
+- coding
+- learning
+- github
 ---
 
 Welcome to my blog with some of my work in progress. I've been working on documenting my coding idea. You can read some of the articles below.

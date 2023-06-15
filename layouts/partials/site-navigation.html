@@ -2,25 +2,51 @@
   <div class="flex-l justify-between items-center center">
     <a href="{{ .Site.Home.RelPermalink }}" class="f3 fw2 hover-white no-underline white-90 dib">
       {{ with .Site.Params.site_logo }}
-        <img src="{{ relURL . }}" class="w100 mw5-ns" alt="{{ $.Site.Title }}" style="border-radius:50%;" />
+        <img src="{{ relURL . }}" class="w100 mw5-ns" alt="{{ $.Site.Title }}" style="border-radius:50%; height:60px; width:60px;" />
       {{ else }}
         {{ .Site.Title }}
       {{ end }}
     </a>
     <div class="flex-l items-center">
+
+      <a class="search-menu" href="/search" title="Search">
+        <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <i class="fa fa-search hover-white no-underline white-90"></i>
+      </a>
+
       {{ partial "i18nlist.html" . }}
       {{ if .Site.Menus.main }}
         <ul class="{{ cond (eq $.Site.Language.LanguageDirection "rtl") "pr0 ml3" "pl0 mr3" }}">
           {{ range .Site.Menus.main }}
-          <li class="list f5 f4-ns fw4 dib {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }}">
-            <a class="hover-white no-underline white-90" href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
-              {{ .Name }}
-            </a>
-          </li>
+
+              {{ if and (ne .Name "Search") (ne .Name "Articles")  }}
+              <li class="list f5 f4-ns fw4 dib {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }}">
+                <a class="hover-white no-underline white-90" href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
+                  {{ .Name }}
+                </a>
+              </li>
+            {{ end }}
           {{ end }}
         </ul>
       {{ end }}
+
       {{ partialCached "social-follow.html" . }}
     </div>
   </div>
 </nav>
+<style>
+  .search-menu {
+  width: relative;
+  height: relative;
+  cursor: pointer;
+  font-size: 30px;
+  margin-right: 20px;
+  opacity: 0.8;
+  display: inline;
+
+}
+.search-menu:hover {
+transition: 0.4s;
+}
+</style>
