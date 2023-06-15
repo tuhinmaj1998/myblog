@@ -48,12 +48,14 @@
     <main class="pb7" role="main">
       {{ block "main" . }}{{ end }}
     </main>
-    {{ block "footer" . }}{{ partialCached "site-footer.html" . }}{{ end }}
+    {{ block "footer" . }}{{ partialCached "site-footer.html" . }}
+{{ partial "search-index.html" . }}
+{{ end }}
         {{ block "js-copy-code" . }}{{ end }}
 
   </body>
 
+  {{ block "css-copy-code" . }} {{ end }}
 
- {{ block "css-copy-code" . }} {{ end }}
 
 </html>

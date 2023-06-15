@@ -35,6 +35,8 @@ git init
 
 * Use the Git integration in PyCharm to stage and commit your changes.
 * After committing, select `VCS > Git > Push` to push your code to the GitHub repository.
+
+[//]: # ([{{< figure src="/images/misc/git2.png" title="" >}}]&#40;/images/misc/git2.png&#41;)
 [{{< figure src="/images/misc/git2.png" title="" >}}](/images/misc/git2.png)
 
 * Provide your GitHub credentials if prompted.

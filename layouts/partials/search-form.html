@@ -1,0 +1,60 @@
+<!--<form id="search"-->
+<!--    action='{{ with .GetPage "/search" }}{{.Permalink}}{{end}}' method="get">-->
+<!--    <label hidden for="search-input">Search site</label>-->
+<!--    <input type="text" id="search-input" name="query"-->
+<!--    placeholder="Type here to search">-->
+<!--    <input type="submit" value="search">-->
+<!--</form>-->
+
+<form id="search"
+    action='{{ with .GetPage "/search" }}{{.Permalink}}{{end}}' method="get">
+<div class="wrap">
+   <div class="search">
+       <label hidden for="search-input">Search site</label>
+      <input type="text" id="search-input" name="query" class="searchTerm" placeholder="What are you looking for?">
+      <button type="submit" class="searchButton" value="search">
+        <i class="fa fa-search"></i>
+     </button>
+   </div>
+</div>
+</form>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #357edd;
+  border-right: none;
+  padding: 5px;
+  height: 36px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #357edd;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+</style>

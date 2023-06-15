@@ -35,7 +35,8 @@ enableRobotsTXT = true
 
 [[params.ananke_socials]]
 name = "twitter"
-url = "https://twitter.com/GoHugoIO
+url = "https://twitter.com/GoHugoIO"
 
 
-"
+#[outputs]
+#    home = [ "HTML", "JSON", "RSS"]
