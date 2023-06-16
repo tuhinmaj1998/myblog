@@ -24,6 +24,7 @@ ___
 Scope of Improvement:
 * Featured Article
 * Bottom Navigation
+* Addition of submenu/drop down menu
 
 ---
 
