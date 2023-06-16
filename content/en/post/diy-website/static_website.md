@@ -9,6 +9,7 @@ featured_image: false
 show_reading_time: true
 summary: "Let's know what is static websites. Click to learn more."
 
+
 ---
 ----
 ### Understanding Static Website
