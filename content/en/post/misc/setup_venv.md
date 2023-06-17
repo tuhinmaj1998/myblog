@@ -5,14 +5,16 @@ tags: ['Virtual Environment', 'Miscellaneous', 'Setting Up Environment']
 featured_image: false
 show_reading_time: true
 summary: "Virtual environment is necessary to bury down the binary f-ups. Now you're interested."
+toc:
+    toclevels: 4
 ---
 ---
-#### 1. In Pycharm:
+### In Pycharm
 In new version of PyCharm, you've been provided the virtual environment while creating new projects.
 [{{< figure src="/images/misc/pp4.png" title="" >}}](/images/misc/pp4.png)
 Click on create button and wait to let PyCharm to show its charm.
 
-#### 2. In All:
+### [Alternative] In All
 
 Open the terminal by clicking on (In PyCharm: "View" > "Tool Windows" > "Terminal")
 
@@ -30,7 +32,7 @@ source venv/bin/activate
 ```
 
  
-### Check:
+### Check
 
 You can see the (venv) sign infront of terminal.
 
