@@ -20,7 +20,9 @@
       </h1>
       {{ with .Params.author | default .Site.Params.author }}
       <p class="tracked">
-        {{ $.Render "by" }} <strong>
+<!--        {{ $.Render "by" }} -->
+
+          By <strong>
         {{- if reflect.IsSlice . -}}
             {{ delimit . ", " | markdownify }}
         {{- else -}}
@@ -43,7 +45,7 @@
           3) A page front matter value is set `show_reading_time = true`
         */}}
       {{ if (or (eq (.Param "show_reading_time") true) (eq $section.Params.show_reading_time true) )}}
-        <span class="f6 mv4 dib tracked"> - {{ i18n "readingTime" .ReadingTime }} </span>
+        <span class="f6 mv4 dib tracked" style="display:inline;"> ~ {{ i18n "readingTime" .ReadingTime }} </span>
 <!--        <span class="f6 mv4 dib tracked"> - {{ i18n "wordCount" .WordCount }} </span>-->
       {{ end }}
     </header>

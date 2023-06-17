@@ -1,6 +1,6 @@
 ---
 title: "Understanding Static Website"
-date: 2023-06-12T22:24:47+05:30
+#date: 2023-06-12T22:24:47+05:30
 #menu:
 #  main:
 #    weight: 20

@@ -1,10 +1,12 @@
 ---
 title: "Setting Up Environment"
-date: 2023-06-12T22:24:47+05:30
+#date: 2023-06-14T22:24:47+05:30
 tags: ['Setting Up Environment','DIY-Website']
 featured_image: false
 show_reading_time: true
 Summary: "Environment is where we actually create the magic. Click to learn the magic."
+toc:
+    toclevels: 4
 ---
 ----
 I am a big fan of PyCharm IDE. To set up your development environment in PyCharm Community Edition 

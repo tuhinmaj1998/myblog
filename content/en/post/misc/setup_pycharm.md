@@ -1,6 +1,6 @@
 ---
 title: "Setting Up PyCharm"
-date: 2023-06-12T22:24:47+05:30
+#date: 2023-06-12T22:24:47+05:30
 tags: ['Install Software', 'Miscellaneous', 'Setting Up Environment']
 featured_image: false
 show_reading_time: true

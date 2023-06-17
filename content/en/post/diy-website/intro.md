@@ -1,13 +1,12 @@
 ---
 title: "Introduction to DIY Website"
 #date: 2023-06-12T22:24:47+05:30
-date: 2023-06-12T22:24:47+05:30
 #menu:
 #  main:
 #    weight: 101
 tags: ['DIY-Website']
 featured_image: false
-show_reading_time: ['website']
+show_reading_time: true
 features: 2
 summary: "Welcome to the journey of building and hosting static web pages! Click to Explore."
 ---

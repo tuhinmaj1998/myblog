@@ -4,7 +4,7 @@ featured_image: ''
 omit_header_text: true
 description: We'd love to hear from you
 type: page
-menu: main
+#menu: main
 ---
 
 #### Tuhin's Blog For more interesting updates direct to your mailbox.
