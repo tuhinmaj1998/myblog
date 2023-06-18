@@ -69,7 +69,7 @@ DIY-Website Series:
 * [x] [Introduction to DIY-Website](/post/diy-website/intro/)
 * [ ] [Understanding Static Website](/post/diy-website/static_website/)
 * [ ] [Setting Up Environment](/post/diy-website/setting_up_env/)
-* [ ] [Setting Up Environment](/post/diy-website/create_content/)
-* [ ] [Setting Up Environment](/post/diy-website/deploy_page/)
+* [ ] [Create Content](/post/diy-website/create_content/)
+* [ ] [Deploy the Page](/post/diy-website/deploy_page/)
 
 
