@@ -133,8 +133,14 @@ url = "https://www.linkedin.com/in/tuhin-majumder-764636125/"
     name = "Create Content"
     identifier = "Create Content"
     url = "/post/diy-website/create_content"
-    weight = 33
+    weight = 34
 
+[[menu.main]]
+    parent = "DIY-Website"
+    name = "Deploy Page"
+    identifier = "Deploy Page"
+    url = "/post/diy-website/deploy_page"
+    weight = 35
 
 
 
