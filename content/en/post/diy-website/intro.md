@@ -1,5 +1,5 @@
 ---
-title: "Introduction to DIY Website"
+title: "I. DIY-Website - Introduction"
 #date: 2023-06-12T22:24:47+05:30
 #menu:
 #  main:
@@ -43,13 +43,33 @@ Well there are other reasons too as well.
 GitHub Pages offers seamless integration with Git, free hosting, custom domain support, version control, and easy deployment, 
 making it a compelling choice for hosting static websites.If you're interested to know more why GitHub Pages are popular, [click here](/post/github/github-pages) 
 
-Throughout this blog post, we'll cover the essentials of static websites, including the basics of HTML markup, CSS styling, and the process of hosting. 
 
+## Is GitHub Pages Right for You
+
+Hold on! Before diving in, let's not overlook the need to determine if GitHub Pages aligns 
+with our specific purpose and requirements. A Brief Examination of Limitations:
+
+* It does not support server-side processing or server-side scripting languages 
+like PHP or databases like MySQL
+* GitHub Pages does not provide advanced server-side security configurations
+* GitHub Pages has usage limits on file storage and bandwidth
+
+For detailed discussion on limitations, [click here](/post/github/limitation_gpages/)
+
+
+## Final Verdict
+Throughout this series, we'll cover the essentials of static websites, including the basics of HTML markup, CSS styling, and the process of hosting.
 By the end, you'll have a solid understanding of how to create your own static website page and make it accessible to the world.
 
 So, let's dive in and embark on this exciting journey of building and hosting static web pages!
 
 ___
 
-Next Section: [Setting Up Environment](/post/diy-website/setting_up_env)
+DIY-Website Series:
+* [x] [Introduction to DIY-Website](/post/diy-website/intro/)
+* [ ] [Understanding Static Website](/post/diy-website/static_website/)
+* [ ] [Setting Up Environment](/post/diy-website/setting_up_env/)
+* [ ] [Setting Up Environment](/post/diy-website/create_content/)
+* [ ] [Setting Up Environment](/post/diy-website/deploy_page/)
+
 

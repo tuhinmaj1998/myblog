@@ -1,16 +1,17 @@
 # myblog
 ----
 
-Welcome to my Blog Website Source Code. This blog site is based on *HUGO*. 
+Welcome to my Blog Website Source Code. This blog site is made with *HUGO*. 
+This is my personal blog website project where I will publish tutorials.
 
-It is available on https://blog.tuhinmajumder.com
+It is available on [https://blog.tuhinmajumder.com](https://blog.tuhinmajumder.com)
 ___
 
 Few Features on this Project:
 
 - [x] Served with HUGO
 - [x] Used ```ANANKE``` Theme
-- [x] Added **```Search```*- [x] Page
+- [x] Added **```Search```** Page
 - [x] Search Functionality with _```LUNR.JS```_
 - [x] 'About' and 'Search' Pages Invisible in Nav Menu
 - [x] ```Copy``` Button in Highlighted Text
@@ -24,7 +25,8 @@ ___
 Scope of Improvement:
 - [ ] Featured Article
 - [ ] Bottom Navigation
-- [x] Addition of ```submenu/drop``` down menu
+- [x] Implementing ```child-parents``` menu concept
+- [x] Addition of ```submenu/dropdown menu```
 - [ ] ```Hamburger``` icon for Mobile-friendly Menu
 
 ---

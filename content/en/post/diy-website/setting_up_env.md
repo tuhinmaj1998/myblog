@@ -1,5 +1,5 @@
 ---
-title: "Setting Up Environment"
+title: "III. DIY-Website - Environment Setup"
 #date: 2023-06-14T22:24:47+05:30
 tags: ['Setting Up Environment','DIY-Website']
 featured_image: false
@@ -10,28 +10,40 @@ toc:
 hasCJKLanguage: true
 ---
 ----
-I am a big fan of PyCharm IDE. To set up your development environment in PyCharm Community Edition 
+I am a big fan of PyCharm IDE since it's free. To set up your development environment in PyCharm Community Edition 
 and link it with GitHub using a virtual environment (venv), follow these steps:
 
-### Prerequisites:
+### Prerequisites
 > Before diving into the action, let's assume we know at least the name of below things.
-> * [Pycharm](/post/misc/setup_pycharm/)
-> * [Virtual Environment](/post/misc/setup_venv/)
-> * [GitHub](/post/github/setup_github/)
+> 1. [x] [Pycharm](/post/misc/setup_pycharm/)
+> 2. [x] [Virtual Environment](/post/misc/setup_venv/)
+> 3. [x] [GitHub](/post/github/setup_github/)
+> 
+> No worries if you don't know, you can either explore the provided link or embark on a brave 
+> quest to test your adaptability. After all, as humans, we have come a long way from apes,
+> and it's our choice to embrace challenges and grow.
 
+### Choose Project in PyCharm
 
-### Create Project in PyCharm:
+* File > New Project
 
-File > New Project
-
-[//]: # ({{< figure src="/images/misc/pp1.png" title="" height="120vf;" >}})
 [{{< figure src="/images/misc/pp1.png" title="" height="120vf;" >}}](/images/misc/pp1.png)
 
- Choose the Location and Name and create. (Make sure you don't have same named repository in GitHub)
+* Choose the Location and Name. (Make sure you don't have same-named repository in GitHub)
+
 [{{< figure src="/images/misc/pp4.png" title="" >}}](/images/misc/pp4.png)
 
+### Virtual Environment Setup
+
+You need to select `New environment using ` **Virtualenv**. Hit Create on bottom-right corner of the screen.
+Wait to finishing up the setup, you'll see `(venv)` like below in terminal window.
+```bash
+(venv) tuhinmajumder@Tuhins-MacBook-Air my_awesome_website %
+```
+For more information how to setup virtual environment [click here.](/post/misc/setup_venv/)
+
 ### Link with GitHub
-Now we have to create a repository in GitHub and link with pycharm present project. 
+Now we have to create a repository in GitHub and link with pycharm present project. (A GitHub repository is a storage space where you can store and organize your code, collaborate with others, and track changes to your project over time.)
 Fortunately PyCharm has inbuilt functionality to do it without a single line of command.
 
 Select VCS > Click on 'Share Project on GitHub'
@@ -46,6 +58,9 @@ You can continue developing your project, committing changes, and pushing them t
 
 ___
 
-* Previous Section: [Introduction to DIY-Website](/post/diy-website/intro/)
-
-* Next Section: [Understanding Static Website](/post/diy-website/static_website/)
+DIY-Website Series:
+* [x] [Introduction to DIY-Website](/post/diy-website/intro/)
+* [x] [Understanding Static Website](/post/diy-website/static_website/)
+* [x] [Setting Up Environment](/post/diy-website/setting_up_env/)
+* [ ] [Setting Up Environment](/post/diy-website/create_content/)
+* [ ] [Setting Up Environment](/post/diy-website/deploy_page/)
