@@ -8,25 +8,26 @@ ___
 
 Few Features on this Project:
 
-* Served with HUGO
-* Used ```ANANKE``` Theme
-* Added **```Search```** Page
-* Search Functionality with _```LUNR.JS```_
-* 'About' and 'Search' Pages Invisible in Nav Menu
-* ```Copy``` Button in Highlighted Text
-* Rounded Image in _logo_
-* Add Click to zoom image feature
-* Subscribe Page integrated with ```Mailchimp```
-* Seo improvement by added ```keywords```
-* External link will open in ```new tab```
+- [x] Served with HUGO
+- [x] Used ```ANANKE``` Theme
+- [x] Added **```Search```*- [x] Page
+- [x] Search Functionality with _```LUNR.JS```_
+- [x] 'About' and 'Search' Pages Invisible in Nav Menu
+- [x] ```Copy``` Button in Highlighted Text
+- [x] Rounded Image in _logo_
+- [x] Add Click to zoom image feature
+- [x] Subscribe Page integrated with ```Mailchimp```
+- [x] Seo improvement by added ```keywords```
+- [x] External link will open in ```new tab```
 ___
 
 Scope of Improvement:
-* Featured Article
-* Bottom Navigation
-* Addition of submenu/drop down menu
+- [ ] Featured Article
+- [ ] Bottom Navigation
+- [x] Addition of ```submenu/drop``` down menu
+- [ ] ```Hamburger``` icon for Mobile-friendly Menu
 
 ---
 
-Any suggestion is welcome. You can fork it and change as you need.
+Any suggestion is welcome. You can [Mail me](mailto:'tuhinmaj1998@gmail.com') here.
 
