@@ -31,6 +31,7 @@ By understanding the nature of static websites and their underlying technologies
 
 ___
 
-Previous Section: [Setting Up Environment](/post/diy-website/setting_up_env/)
+[//]: # (Previous Section: [Setting Up Environment]&#40;/post/diy-website/setting_up_env/&#41;)
 
-Previous Section: Cooking🧑‍🍳
+[//]: # ()
+[//]: # (Next Section: Cooking🧑‍🍳)

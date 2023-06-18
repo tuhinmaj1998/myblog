@@ -5,17 +5,20 @@ tags: ['Github', 'Miscellaneous', 'Setting Up Environment']
 featured_image: false
 show_reading_time: true
 summary: "Let's learn how to link project with github. Click to learn more."
-
+summary: "Discussion on Github Pages"
+toc:
+    toclevels: 4
+---
 ---
 There are two ways to set up GitHub with your project.
 
-## In GitHub:
+## In GitHub
 
-#### Run the following command to initialize a Git repository
+### Run the following command to initialize a Git repository
 ```csharp
 git init
 ````
-#### Link your project to a GitHub repository
+### Link your project to a GitHub repository
 * Create a new repository on [GitHub](https://github.com/new) without initializing it with a README, .gitignore, or license.
 
 * Copy the repository URL 
@@ -24,13 +27,13 @@ git init
 
 
 
-## In PyCharm: 
+## -[x] In PyCharm:
 
 * Go to `VCS > Git > Remotes`.
 * Click on the `+` button to add a new remote.
 * Enter a name for the remote (e.g., "origin") and paste the repository URL. Click `OK` to save the remote configuration.
 
-#### Commit and Push Your Code
+### Commit and Push Your Code
 * In the PyCharm IDE, create or import your files as needed.
 
 * Use the Git integration in PyCharm to stage and commit your changes.

@@ -7,6 +7,7 @@ show_reading_time: true
 Summary: "Environment is where we actually create the magic. Click to learn the magic."
 toc:
     toclevels: 4
+hasCJKLanguage: true
 ---
 ----
 I am a big fan of PyCharm IDE. To set up your development environment in PyCharm Community Edition 

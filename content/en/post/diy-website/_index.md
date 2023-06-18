@@ -12,3 +12,9 @@ cascade:
 
 Welcome to DIY-Website Building. Let's make it with minimal coding.
 ---
+
+Creating and hosting a static website page is a fundamental skill for a broader audience beyond web developers.
+In this blog post, we will explore the process of building a static website page from scratch and hosting it on the internet.
+
+
+Whether you're a beginner looking to learn the basics or an experienced developer wanting to refresh your knowledge, this guide will provide you with a step-by-step walkthrough.

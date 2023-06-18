@@ -94,27 +94,40 @@ url = "https://www.linkedin.com/in/tuhin-majumder-764636125/"
 
 [[menu.main]]
     name = "About"
-    pre = "<i class='fa fa-heart'></i>"
+#    pre = "<i class='fa fa-heart'></i>"
     weight = 2
     identifier = "about"
     url = "/about/"
 
 [[menu.main]]
     name = "DIY-Website"
-    pre = "<i class='fa fa-heart'></i>"
+#    pre = "<i class='fa fa-heart'></i>"
     weight = 3
     identifier = "DIY-Website"
     url = "/post/diy-website"
 
 [[menu.main]]
     name = "Subscribe"
-    pre = "<i class='fa fa-heart'></i>"
+#    pre = "<i class='fa fa-heart'></i>"
     weight = 4
     identifier = "Subscribe"
     url = "/subscribe"
 
-#[[menu.main]]
-#    name = "Search Here"
-#    weight = 4
-#    identifier = "Search Here"
-#    url = "/search"
+[[menu.main]]
+    parent = "DIY-Website"
+    name = "Introduction"
+    identifier = "Intro"
+    url = "/post/diy-website/intro"
+
+[[menu.main]]
+    parent = "DIY-Website"
+    name = "Static Website"
+    identifier = "Static Web"
+    url = "/post/diy-website/static-website"
+
+
+[[menu.main]]
+    parent = "DIY-Website"
+    name = "Set Up Environment"
+    identifier = "Set Env"
+    url = "/post/diy-website/setting_up_env"
