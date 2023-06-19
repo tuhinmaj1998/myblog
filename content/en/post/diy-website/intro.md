@@ -54,6 +54,7 @@ like PHP or databases like MySQL
 * GitHub Pages does not provide advanced server-side security configurations
 * GitHub Pages has usage limits on file storage and bandwidth
 
+
 For detailed discussion on limitations, [click here](/post/github/limitation_gpages/)
 
 

@@ -1,14 +1,15 @@
 ---
-title: "GitHub Pages"
-#date: 2023-06-15T22:24:47+05:30
+title: "Understand GitHub Pages"
+#date: 2023-06-30T22:24:47+05:30
 tags: ['Github', 'GitHub Pages']
 featured_image: false
 show_reading_time: true
 summary: "Discussion on Github Pages"
-toc:
-    toclevels: 4
+toc: true
 ---
 ----
+GitHub Pages is a hosting service provided by GitHub for publishing websites, whether personal, project-based, or documentation. It simplifies the process of making your web content accessible to others online.
+
 
 ## Seamless Integration
 GitHub Pages is tightly integrated with GitHub, making it effortless to deploy and manage your static website directly from your GitHub repository. Pushing changes to your repository automatically triggers updates to your live website.
