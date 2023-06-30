@@ -1,7 +1,7 @@
 ---
 baseURL: ''
 #date: 2023-06-12T22:24:47+05:30
-title: "Blog - Tuhin Majumder"
+title: "Save Your Game Here" 
 description: "<LEARN>   Anything. Anywhere.   </LEARN>"
 # 1. To ensure Netlify triggers a build on our exampleSite instance, we need to change a file in the exampleSite directory.
 theme_version: '2.8.2'
@@ -20,7 +20,6 @@ keywords:
 - learning
 - github
 ---
-
-Welcome to my blog with some of my work in progress. I've been working on documenting my coding idea. You can read some of the articles below.
-
+Welcome to my blog with some of my work in progress. I've been working on documenting my coding 
+idea. You can read some of the articles below.
 ---
